@@ -60,9 +60,9 @@ NSString * const AJWValidatorRegularExpressionPatternContainsNumber = @".*\\d.*"
 
 @property (nonatomic) AJWValidatorType type;
 @property (nonatomic) AJWValidatorState state;
-@property (copy, nonatomic) NSMutableArray *rules;
+@property (nonatomic) NSMutableArray *rules;
 @property (nonatomic) BOOL localConditionsSatisfied;
-@property (copy, nonatomic) NSMutableArray *mutableErrorMessages;
+@property (nonatomic) NSMutableArray *mutableErrorMessages;
 
 @end
 
