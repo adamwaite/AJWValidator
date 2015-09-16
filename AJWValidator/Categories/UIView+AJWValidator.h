@@ -24,6 +24,15 @@
  */
 - (void)ajw_removeValidators;
 
+/**
+ *  Determines whether view is valid
+ *
+ *  Internally calls -isValid for all attached validators
+ *
+ *  @return 'YES' if object contains any data, otherwise 'NO'
+ */
+- (BOOL)ajw_isValid;
+
 #pragma mark Deprected
 
 - (void)attachValidator:(AJWValidator *)validator __attribute__((deprecated));
